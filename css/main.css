@@ -26,22 +26,19 @@ body {
   color: #dfdfdf;
 }
 
-
-
 .banner {
-
   background-size: cover;
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px);
 }
 
 /* Custom CSS for responsive images */
 @media (min-width: 768px) {
   .banner {
-      background-image: url('../images/banner_desktop.jpg');
+    background-image: url("../images/banner_desktop.jpg");
   }
-  .banner_cta{
+  .banner_cta {
     top: 60% !important;
     position: absolute;
     left: 2%;
@@ -50,19 +47,14 @@ body {
 
 @media (max-width: 767px) {
   .banner {
-      background-image: url('../images/banner_mobile.jpg');
+    background-image: url("../images/banner_mobile.jpg");
   }
-  .banner_cta{
+  .banner_cta {
     top: 30% !important;
     position: absolute;
     left: 35%;
   }
 }
-
-
-
-
-
 
 .download-brochure {
   background-color: #0499dc;
@@ -91,7 +83,7 @@ body {
 .head h2 {
   font-size: 48px;
   font-weight: 700;
-  color: #161C2D;
+  color: #161c2d;
   padding-bottom: 6px;
 }
 
@@ -99,11 +91,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 60px;
 }
 .header .logo img {
-  max-width: 190px;
+  max-width: 130px;
   height: auto;
+  padding-top: 10px;
 }
 .header .humberger img {
   width: 30px;
@@ -111,7 +104,6 @@ body {
 }
 
 .home {
-
   background-size: cover;
   height: calc(100vh - 80px);
 }
@@ -163,7 +155,7 @@ body {
   font-size: 35px;
   line-height: 46px;
   font-weight: 700;
-  color: #161C2D;
+  color: #161c2d;
   padding-bottom: 5px;
 }
 .about p {
@@ -188,7 +180,7 @@ body {
 .highlight .head p {
   font-size: 25px;
   line-height: 30px;
-  color: #161C2D;
+  color: #161c2d;
 }
 .highlight .hl-item {
   margin-top: 30px;
@@ -204,7 +196,7 @@ body {
 .highlight .hl-item p {
   font-size: 17px;
   line-height: 22px;
-  color: #161C2D;
+  color: #161c2d;
   text-align: justify;
 }
 
@@ -217,7 +209,7 @@ body {
 }
 .project .pc-item {
   padding: 30px 16px;
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   border-radius: 20px;
   margin-top: 20px;
   text-align: center;
@@ -227,7 +219,7 @@ body {
   font-size: 30px;
   line-height: 45px;
   font-weight: 700;
-  color: #161C2D;
+  color: #161c2d;
 }
 .project .pc-item p {
   font-size: 28px;
@@ -299,7 +291,7 @@ body {
   background-color: #fff;
   border-radius: 0 0 8px 8px;
   text-align: center;
-  color: #161C2D;
+  color: #161c2d;
   padding: 16px 3px;
   font-size: 16px;
   line-height: 20px;
@@ -331,19 +323,19 @@ body {
   font-size: 26px;
   line-height: 32px;
   font-weight: 700;
-  color: #161C2D;
+  color: #161c2d;
 }
 .location .map-item h4 {
   font-size: 20px;
   line-height: 32px;
   font-weight: 700;
-  color: #161C2D;
+  color: #161c2d;
   margin-bottom: 0;
 }
 .location .map-item p {
   font-size: 16px;
   line-height: 29px;
-  color: #161C2D;
+  color: #161c2d;
 }
 .location .left-art {
   position: absolute;
@@ -371,7 +363,7 @@ body {
 .gallery p {
   font-size: 16px;
   font-weight: 300;
-  color: #161C2D;
+  color: #161c2d;
   text-align: right;
   padding-top: 10px;
 }
@@ -395,7 +387,7 @@ body {
   text-align: left;
   font-size: 17px;
   line-height: 22px;
-  color: #161C2D;
+  color: #161c2d;
 }
 .plan .plan-points .btn-mjr {
   margin-top: 20px;
@@ -430,7 +422,7 @@ body {
 }
 .footer .footer-top .left p a {
   text-decoration: none;
-  color: #161C2D;
+  color: #161c2d;
   font-weight: 600;
 }
 .footer .footer-top .left p a:hover {
@@ -447,7 +439,7 @@ body {
 }
 .footer .footer-top .right p a {
   text-decoration: none;
-  color: #161C2D;
+  color: #161c2d;
   font-size: 14px;
 }
 .footer .footer-top .right p a:hover {
@@ -455,7 +447,7 @@ body {
   font-weight: 600;
 }
 .footer .footer-bottom {
-  border-top: 1px solid #E2E8F0;
+  border-top: 1px solid #e2e8f0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -469,10 +461,10 @@ body {
 }
 .footer .footer-bottom .left p {
   margin-bottom: 0;
-  color: #161C2D;
+  color: #161c2d;
 }
 .footer .footer-bottom .right p {
-  color: #161C2D;
+  color: #161c2d;
 }
 .footer .footer-bottom .right p a {
   text-decoration: none;
@@ -499,14 +491,15 @@ body {
   height: 80px;
 }
 #anarock-form .ap-lead-form .am-input-container .am-input {
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
   height: 50px;
   border-radius: 8px;
 }
 #anarock-form .ap-lead-form .am-input-container.phone .am-input {
   padding-left: 16px;
 }
-#anarock-form .ap-lead-form .am-input-container.af-focussed .am-input-label, #anarock-form .ap-lead-form .am-input-container.af-valid .am-input-label {
+#anarock-form .ap-lead-form .am-input-container.af-focussed .am-input-label,
+#anarock-form .ap-lead-form .am-input-container.af-valid .am-input-label {
   top: -5px;
   background: #fff;
   display: inline;
@@ -551,7 +544,7 @@ body {
 }
 .policy p {
   font-size: 18px;
-  color: #161C2D;
+  color: #161c2d;
   text-align: justify;
   margin-bottom: 30px;
 }
@@ -581,7 +574,7 @@ body {
     text-align: left;
     font-size: 20px;
     line-height: 27px;
-    color: #161C2D;
+    color: #161c2d;
   }
   .plan .head {
     padding-top: 80px;
@@ -592,7 +585,7 @@ body {
     height: 60px;
   }
   .header .logo img {
-    max-width: 150px;
+    max-width: 120px;
   }
   .download-brochure {
     padding: 2px 12px;
@@ -688,4 +681,4 @@ body {
   .home {
     background-position: -470px 0px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
