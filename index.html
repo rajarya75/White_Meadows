@@ -28,7 +28,12 @@
     <script src="unpkg.com/aos%402.3.1/dist/aos.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11399710128"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-11399710128'); </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'AW-11399710128'); 
+    </script>
     <!-- Event snippet for ED_S2STSSM_OMW_CONTACT BACKUP conversion page -->
     <script> gtag('event', 'conversion', { 'send_to': 'AW-11399710128/fN2mCPLj7d4ZELCL57sq', 'value': 1.0, 'currency': 'INR' }); </script>
     <!-- Meta fixel -->
@@ -36,7 +41,7 @@
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             };
             if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
             n.queue = []; t = b.createElement(e); t.async = !0;
